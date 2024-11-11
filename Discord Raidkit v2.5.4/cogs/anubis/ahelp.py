@@ -56,7 +56,7 @@ class Help(commands.Cog):
                     missing_perms = True
                 if author.guild_permissions.kick_members:
                     embed.add_field(
-                        name="`kick <member> <reason>`",
+                        falkenrider="`kick <member> <reason>`",
                         value="Kicks a member from the server.",
                         inline=False)
                 else:
